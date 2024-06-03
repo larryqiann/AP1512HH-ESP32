@@ -1,9 +1,11 @@
-## Note: This project was originally developed a long time ago and is being released to the public in archive form to document the hardware that has already been produced. Future updates to this project are not guaranteed, and future firmware and hardware development may not be backwards compatible with it. The hardware has not been thoroughly tested and as of this release, does not have firmware to correspond with the hardware yet. The contents of this repository are provided AS-IS where is, without any warranties or guarantees, express or implied.
+## Note: This project was originally developed a long time ago and is being released to the public in archive form to document the hardware that has already been produced. Future updates to this project are not guaranteed, and future firmware and hardware development may not be backwards compatible with it. The hardware has not been thoroughly tested and as of this release, does not have firmware to correspond with the hardware yet. The contents of this repository are provided AS-IS where is, without any warranties or guarantees, express or implied. 
+
+It is likely that there will have to be a Gen2 at some point.
 
 # AP1512HH-ESP32
  Coway AP1512HH/AP-1512/AP 1512 Custom Main Board replacement with ESP32
 
- This is a custom, third party Main PCB (Development Kit) for the Coway AP1512HH air purifier and most likely, the different variants of this device. This project is intended for use with the *non-smart* versions of this device - the AP-1512HHS uses a board that natively supports wireless connectivity and I am unsure what the layout of this is like.
+ This is a custom, third party Main PCB (Development Kit) for the Coway AP1512HH air purifier and most likely, the different variants of this device. This project is intended for use with the *non-smart* versions of this device - the AP-1512HHS uses a board that natively supports wireless connectivity and I am unsure what the layout of this is like. This may be useful for developing an integration with Home Assistant or using ESPHome etc, but I have not developed such a firmware yet.
 
  **Please see the Teardown, along with its disussions, for general information about the device (https://github.com/device-teardowns/coway-ap1512hh)**
 
@@ -74,7 +76,9 @@ https://www.lcsc.com/product-detail/Wire-To-Board-Connector_XFCN-M2501RF-05P_C49
 
 ## Thank you for reading the documentation! If you have any questions, feel free to open issues! Good luck on your development!
 
+## License
 
+CERN OHL v2 permissive (Please open issue if other is desired)
 
 
 
